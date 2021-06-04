@@ -10,25 +10,35 @@
         type = "image/x-icon">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/70d2d2bcde.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
     <nav>
-        <ul class="nav-list">
-            <svg class="nav-link" viewBox="0 0 100 80" width="40" height="40">
-                <rect width="100" height="20" rx="8"></rect>
-                <rect y="30" width="100" height="20" rx="8"></rect>
-                <rect y="60" width="100" height="20" rx="8"></rect>
-              </svg>
-            <li class="nav-link desktop">Gmail</li>
-            <li class="nav-link mobile">TODOS</li>
-            <li class="nav-link">IMÁGENES</li>
+        <div class="burger-menu">
+            <svg class="svg1 nav-link" style="fill:#70757a;
+                width:24px;height:24px" viewBox="0 0 24 24" xmlns=
+                "http://www.w3.org/2000/svg" data-iml="1622798310249"
+                ><path d="M0 0h24v24H0z" fill="none"></path><path d="M3
+                 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+        </div>
+        <div class="nav-list">
+            <ul class="nav-ul-list">
+                <li  class="desktop"><a class="nav-link" href="#">Gmail</a></li>       
+                <li class="mobile"><a class="nav-link" href="#">Todos</a></li>
+                <li><a class="nav-link" href="#">Imágenes</a></li>
+            </ul>
+        </div>
+        <div>
+
+        </div>
+        <div>
             <img class="nav-link right first-img" src="dragoncito.jpg" alt="HErooo">
             <img  class="nav-link right"  src="https://www.svgrepo.com/show/41236/dots-menu.svg" alt="" width="40px" height="40px" intrinsicsize="512 x 512" >
-            
-        </ul>
+        </div>
     </nav>
 </header>
+<!--
 <main>
     <img class="second-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
     <input class="search-box" type="text">
@@ -54,5 +64,6 @@
         <li class="footer-link">Sobre Google</li>
     </ul>
 </footer>
+-->
 </body>
 </html>
