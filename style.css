@@ -7,6 +7,8 @@ body {
     color: #222;
     box-sizing: border-box;
 }
+
+/* HEADER NAV BAR starts here  */
 header {
     margin-left: -8;
    
@@ -67,11 +69,29 @@ header {
     border-radius: 50%;
     
 }
-
+/*HEADER NAV BAR ends here*/
 
 main {
-    margin-top: 10%;
+    padding-top: 20px;
     text-align: center;
+    height: auto;
+    
+}
+.second-img-container {
+    text-align: center;
+    margin: 36px auto 18px;
+    width: 160px;
+    line-height: 0;
+    
+    
+}
+.second-img {
+    width: 160px;
+    margin: 8px 0;
+    
+    
+   
+
 }
 .search-box {
     display: block;
