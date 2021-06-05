@@ -86,20 +86,52 @@ main {
     
 }
 .second-img {
-    width: 160px;
+    width: 158px;
     margin: 8px 0;
-    
-    
-   
-
+}
+.search-box-container {
+    position: relative;
+    padding: 0 8px;
+}
+.search-box-container::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill-rule='evenodd'%3E%3Cpath d='M16.036 18.455l2.404-2.405 5.586 5.587-2.404 2.404zM8.5 2C12.1 2 15 4.9 15 8.5S12.1 15 8.5 15 2 12.1 2 8.5 4.9 2 8.5 2zm0-2C3.8 0 0 3.8 0 8.5S3.8 17 8.5 17 17 13.2 17 8.5 13.2 0 8.5 0zM15 16a1 1 0 1 1 2 0 1 1 0 1 1-2 0'%3E%3C/path%3E%3C/svg%3E") center / contain no-repeat;
+}
+.search-box-container::after {
+    content: "";
+    position: absolute;
+    left: 100px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill-rule='evenodd'%3E%3Cpath d='M16.036 18.455l2.404-2.405 5.586 5.587-2.404 2.404zM8.5 2C12.1 2 15 4.9 15 8.5S12.1 15 8.5 15 2 12.1 2 8.5 4.9 2 8.5 2zm0-2C3.8 0 0 3.8 0 8.5S3.8 17 8.5 17 17 13.2 17 8.5 13.2 0 8.5 0zM15 16a1 1 0 1 1 2 0 1 1 0 1 1-2 0'%3E%3C/path%3E%3C/svg%3E") >
 }
 .search-box {
     display: block;
-    margin: 20px auto;
-    width: auto;
-    min-width: 300px;
+    margin: 3px auto 20px auto;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #dadce0;
+    z-index: 0;
+    
 }
-.ref-text {
+
+.gBCQ5d {
+    z-index: 1;
+    position: relative;
+    background: none;
+    color: #9aa0a6;
+    height: 24px;
+    width: 24px;
+    margin: 5px 0 0 40px;
+}
+.lang-text {
     display: inline-block;
     font-size: small;
     width: 191px;
@@ -109,14 +141,14 @@ footer {
     bottom: 0;
     width: 100%;
     min-height: 50px;
-    background: #dadce0;
-    font-size: 0.8rem;
+    background: #f2f2f2;
+    font-size: 13px;
     
 }
 .footer-first {
     height: 50px;
     text-align: left;
-    border-bottom: 1px solid darkgray;
+    border-bottom: 1px solid #dadce0;
     padding: 15px 30px;
     font-size: 15px;
     width: auto;
@@ -137,9 +169,17 @@ footer {
 }
 .footer-link {
     display: inline;
+    padding: 0 8px;
 }
 .first-floor {
-    display: block;
+    
+    text-align: center;
+    line-height: 35px;
+    text-align: center;
+}
+.second-floor {
+    text-align: center;
+    line-height: 35px;
     text-align: center;
 }
 .desktop {
