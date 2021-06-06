@@ -45,9 +45,9 @@ header {
     line-height: 48px;
     
 }
-.space-div {
-    width: 170px;
-    height: 48px;
+.nav-link.active {
+    color: #4285f4;
+    border-bottom: 2px solid #4285f4;
 }
 .end-nav {
     display: flex;
@@ -122,15 +122,7 @@ main {
     
 }
 
-.gBCQ5d {
-    z-index: 1;
-    position: relative;
-    background: none;
-    color: #9aa0a6;
-    height: 24px;
-    width: 24px;
-    margin: 5px 0 0 40px;
-}
+
 .lang-text {
     display: inline-block;
     font-size: small;
