@@ -68,6 +68,10 @@ main {
     padding-left: 20px;
     padding-top: 5px;
 }
+.lupa {
+    width: 20px;
+
+}
 .search-box {
     display: block;
     margin: 10px auto 20px auto;
@@ -79,12 +83,8 @@ main {
     z-index: 0;
     font-size: 16px;
 }
-.search-box:hover {
-    
-}
-.lupa {
-    width: 20px;
-
+.mic {
+    width: 20px
 }
 .btn-group {
     margin-top: -1px;
