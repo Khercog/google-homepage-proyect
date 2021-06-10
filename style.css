@@ -1,12 +1,14 @@
 body {
     display: block;
     height: 100%;
+    max-height: 100%;
     margin: 0;
     padding: 0;
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #222;
     background: #fff;
+    overflow: hidden;
 }
 
 /* HEADER NAV BAR starts here  */
@@ -18,26 +20,38 @@ body {
     height: 48px;
     margin-top: 5px;
     font-size: 13px;
+    
 }
 
 .nav-link {
     display: inline-block;
     text-decoration: none;
     color: black;
-    margin-left: 15px;
+    margin-right: 15px;
 }
+.nav-hyper {
+    padding: 0 16px;
+    margin-top: 2px;
+}
+.link2 {
+    margin-right: 12px;
+}
+
 
 .nine-dots {
     display: block;
     width: 16px;
     height: 16px;
+    margin-right: 9px;
+    margin-top: 2px;
     
 }
    
 .first-img {
     display: block;
     border-radius: 50%;
-    margin-right: 5px;
+    margin-right: 3px;
+    margin-top: 1px;
     
     
 }
@@ -52,70 +66,72 @@ main {
 .second-img-container {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     text-align: center;
     width: 100%;
-    height: 290px;
-    min-height: 92px; 
+    height: 277px;
+    min-height: 92px;
+    margin-bottom: 26px;
 }
 .second-img {
 
-    width: 272px;
-    margin: 185px auto 0 auto;
-    padding-left: 18px;
-    
+        
 }
 .search-box-container {
-    padding-left: 20px;
-    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #dadce0;
+    max-width: 582px;
+    height: 44px;
+    margin: 13px auto 20px auto;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
 }
 .lupa {
     width: 20px;
+    height: 20px;
+    
 
 }
 .search-box {
-    display: block;
-    margin: 10px auto 20px auto;
-    width: 100%;
-    max-width: 582px;
-    height: 44px;
-    border-radius: 25px;
-    border: 1px solid #dadce0;
-    z-index: 0;
-    font-size: 16px;
+  border: transparent;
+  width: 80%;
+  margin: 0 20px 0 21px;
+  padding-left: 5px;
+   
+    
 }
 .mic {
-    width: 20px
+    width: 24px;
+    height: 24px;
 }
 .btn-group {
     margin-top: -1px;
 }
 .both-btn {
     padding: 0 16px;
-    margin-left: 8px;
+    margin: 18px 4px;
     text-decoration: transparent;
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
 }
-.search-box {
-    display: block;
-    margin: 10px auto 20px auto;
-    width: 100%;
-    max-width: 582px;
-    height: 44px;
-    border-radius: 20px;
-    border: 1px solid #dadce0;
-    z-index: 0;
-    
 }
 .lang-text {
     display: inline-block;
-    font-size: small;
     width: 225px;
     text-align: center;
     padding: 40px 12px;
-    margin-left: 18px;
-    margin-top: -14px;
+    
+}
+.ref-text {
+    font-size: 13px;
+    margin-top: 18px;
 }
 .lang {
     margin-top: 8px;
